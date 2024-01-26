@@ -1,0 +1,528 @@
+{
+  "Actor in a Leading Role": [
+    {
+      "title": "Bradley Cooper",
+      "subtitle": "Maestro"
+    },
+    {
+      "title": "Colman Domingo",
+      "subtitle": "Rustin"
+    },
+    {
+      "title": "Paul Giamatti",
+      "subtitle": "The Holdovers"
+    },
+    {
+      "title": "Cillian Murphy",
+      "subtitle": "Oppenheimer"
+    },
+    {
+      "title": "Jeffrey Wright",
+      "subtitle": "American Fiction"
+    }
+  ],
+  "Actor in a Supporting Role": [
+    {
+      "title": "Sterling K. Brown",
+      "subtitle": "American Fiction"
+    },
+    {
+      "title": "Robert De Niro",
+      "subtitle": "Killers of the Flower Moon"
+    },
+    {
+      "title": "Robert Downey Jr.",
+      "subtitle": "Oppenheimer"
+    },
+    {
+      "title": "Ryan Gosling",
+      "subtitle": "Barbie"
+    },
+    {
+      "title": "Mark Ruffalo",
+      "subtitle": "Poor Things"
+    }
+  ],
+  "Actress in a Leading Role": [
+    {
+      "title": "Annette Bening",
+      "subtitle": "Nyad"
+    },
+    {
+      "title": "Lily Gladstone",
+      "subtitle": "Killers of the Flower Moon"
+    },
+    {
+      "title": "Sandra Hüller",
+      "subtitle": "Anatomy of a Fall"
+    },
+    {
+      "title": "Carey Mulligan",
+      "subtitle": "Maestro"
+    },
+    {
+      "title": "Emma Stone",
+      "subtitle": "Poor Things"
+    }
+  ],
+  "Actress in a Supporting Role": [
+    {
+      "title": "Emily Blunt",
+      "subtitle": "Oppenheimer"
+    },
+    {
+      "title": "Danielle Brooks",
+      "subtitle": "The Color Purple"
+    },
+    {
+      "title": "America Ferrera",
+      "subtitle": "Barbie"
+    },
+    {
+      "title": "Jodie Foster",
+      "subtitle": "Nyad"
+    },
+    {
+      "title": "Da'Vine Joy Randolph",
+      "subtitle": "The Holdovers"
+    }
+  ],
+  "Animated Feature Film": [
+    {
+      "title": "The Boy and the Heron",
+      "subtitle": "Hayao Miyazaki and Toshio Suzuki"
+    },
+    {
+      "title": "Elemental",
+      "subtitle": "Peter Sohn and Denise Ream"
+    },
+    {
+      "title": "Nimona",
+      "subtitle": "Nick Bruno, Troy Quane, Karen Ryan, and Julie Zackary"
+    },
+    {
+      "title": "Robot Dreams",
+      "subtitle": "Pablo Berger, Ibon Cormenzana, Ignasi Estapé and Sandra Tapia Díaz"
+    },
+    {
+      "title": "Spider-Man: Across the Spider-Verse",
+      "subtitle": "Kemp Powers, Justin K. Thompson, Phil Lord, Christopher Miller and Amy Pascal"
+    }
+  ],
+  "Cinematography": [
+    {
+      "title": "El Conde",
+      "subtitle": "Edward Lachman"
+    },
+    {
+      "title": "Killers of the Flower Moon",
+      "subtitle": "Rodrigo Prieto"
+    },
+    {
+      "title": "Maestro",
+      "subtitle": "Matthew Libatique"
+    },
+    {
+      "title": "Oppenheimer",
+      "subtitle": "Hoyte van Hoytema"
+    },
+    {
+      "title": "Poor Things",
+      "subtitle": "Robbie Ryan"
+    }
+  ],
+  "Costume Design": [
+    {
+      "title": "Barbie",
+      "subtitle": "Jacqueline Durran"
+    },
+    {
+      "title": "Killers of the Flower Moon",
+      "subtitle": "Jacqueline West"
+    },
+    {
+      "title": "Napoleon",
+      "subtitle": "Janty Yates and Dave Crossman"
+    },
+    {
+      "title": "Oppenheimer",
+      "subtitle": "Ellen Mirojnick"
+    },
+    {
+      "title": "Poor Things",
+      "subtitle": "Holly Waddington"
+    }
+  ],
+  "Directing": [
+    {
+      "title": "Anatomy of a Fall",
+      "subtitle": "Justine Triet"
+    },
+    {
+      "title": "Killers of the Flower Moon",
+      "subtitle": "Martin Scorsese"
+    },
+    {
+      "title": "Oppenheimer",
+      "subtitle": "Christopher Nolan"
+    },
+    {
+      "title": "Poor Things",
+      "subtitle": "Yorgos Lanthimos"
+    },
+    {
+      "title": "The Zone of Interest",
+      "subtitle": "Jonathan Glazer"
+    }
+  ],
+  "Documentary Feature Film": [
+    {
+      "title": "Bobi Wine: The People's President",
+      "subtitle": "Moses Bwayo, Christopher Sharp, and John Battsek"
+    },
+    {
+      "title": "The Eternal Memory",
+      "subtitle": "TBD"
+    },
+    {
+      "title": "Four Daughters",
+      "subtitle": "Kaouther Ben Hania and Nadim Cheikhrouha"
+    },
+    {
+      "title": "To Kill A Tiger",
+      "subtitle": "Nisha Pahuja, Cornelia Principe, and David Oppenheim"
+    },
+    {
+      "title": "20 Days in Mariupol",
+      "subtitle": "Mstyslav Chernov, Michelle Mizner, and Raney Aronson-Rath"
+    }
+  ],
+  "Documentary Short Film": [
+    {
+      "title": "The ABCs of Book Banning",
+      "subtitle": "Sheila Nevins and Trish Adlesic"
+    },
+    {
+      "title": "The Barber of Little Rock",
+      "subtitle": "John Hoffman and Christine Turner"
+    },
+    {
+      "title": "Island In Between",
+      "subtitle": "S. Leo Chiang and Jean Tsien"
+    },
+    {
+      "title": "The Last Repair Shop",
+      "subtitle": "Ben Proudfoot and Kris Bowers"
+    },
+    {
+      "title": "Nǎi Nai & Wài Pó",
+      "subtitle": "Sean Wang and Sam Davis"
+    }
+  ],
+  "Film Editing": [
+    {
+      "title": "Anatomy of a Fall",
+      "subtitle": "Laurent Sénéchal"
+    },
+    {
+      "title": "The Holdovers",
+      "subtitle": "Kevin Tent"
+    },
+    {
+      "title": "Killers of the Flower Moon",
+      "subtitle": "Thelma Schoonmaker"
+    },
+    {
+      "title": "Oppenheimer",
+      "subtitle": "Jennifer Lame"
+    },
+    {
+      "title": "Poor Things",
+      "subtitle": "Yorgos Mavropsaridis"
+    }
+  ],
+  "International Feature Film": [
+    {
+      "title": "Io Capitano",
+      "subtitle": "Italy"
+    },
+    {
+      "title": "Perfect Days",
+      "subtitle": "Japan"
+    },
+    {
+      "title": "Society of the Snow",
+      "subtitle": "Spain"
+    },
+    {
+      "title": "The Teachers' Lounge",
+      "subtitle": "Germany"
+    },
+    {
+      "title": "The Zone of Interest",
+      "subtitle": "United Kingdom"
+    }
+  ],
+  "Makeup and Hairstyling": [
+    {
+      "title": "Golda",
+      "subtitle": "Karen Hartley Thomas, Suzi Battersby, and Ashra Kelly-Blue"
+    },
+    {
+      "title": "Maestro",
+      "subtitle": "Kazu Hiro, Kay Georgiou, and Lori McCoy-Bell"
+    },
+    {
+      "title": "Oppenheimer",
+      "subtitle": "Luisa Abel"
+    },
+    {
+      "title": "Poor Things",
+      "subtitle": "Nadia Stacey, Mark Coulier, and Josh Weston"
+    },
+    {
+      "title": "Society of the Snow",
+      "subtitle": "Ana López-Puigcerver, David Martí, and Montse Ribé"
+    }
+  ],
+  "Music (Original Score)": [
+    {
+      "title": "American Fiction",
+      "subtitle": "Laura Karpman"
+    },
+    {
+      "title": "Indiana Jones and the Dial of Destiny",
+      "subtitle": "John Williams"
+    },
+    {
+      "title": "Killers of the Flower Moon",
+      "subtitle": "Robbie Robertson"
+    },
+    {
+      "title": "Oppenheimer",
+      "subtitle": "Ludwig Göransson"
+    },
+    {
+      "title": "Poor Things",
+      "subtitle": "Jerskin Fendrix"
+    }
+  ],
+  "Music (Original Song)": [
+    {
+      "title": "\"The Fire Inside\" from Flamin' Hot",
+      "subtitle": "Music and Lyric by Diane Warren"
+    },
+    {
+      "title": "\"I'm Just Ken\" from Barbie",
+      "subtitle": "Music and Lyric by Mark Ronson and Andrew Wyatt"
+    },
+    {
+      "title": "\"It Never Went Away\" from American Symphony",
+      "subtitle": "Music and Lyric by Jon Batiste and Dan Wilson"
+    },
+    {
+      "title": "\"Wahzhazhe (A Song For My People)\" from Killers of the Flower Moon",
+      "subtitle": "Music and Lyric by Scott George"
+    },
+    {
+      "title": "\"What Was I Made For?\" from Barbie",
+      "subtitle": "Music and Lyric by Billie Eilish and Finneas O'Connell"
+    }
+  ],
+  "Best Picture": [
+    {
+      "title": "American Fiction",
+      "subtitle": "Ben LeClair, Nikos Karamigios, Cord Jefferson, and Jermaine Johnson; Producers"
+    },
+    {
+      "title": "Anatomy of a Fall",
+      "subtitle": "Marie-Ange Luciani and David Thion; Producers"
+    },
+    {
+      "title": "Barbie",
+      "subtitle": "David Heyman, Margot Robbie, Tom Ackerley, and Robbie Brenner; Producers"
+    },
+    {
+      "title": "The Holdovers",
+      "subtitle": "Mark Johnson; Producer"
+    },
+    {
+      "title": "Killers of the Flower Moon",
+      "subtitle": "Dan Friedkin, Bradley Thomas, Martin Scorsese, and Daniel Lupi; Producers"
+    },
+    {
+      "title": "Maestro",
+      "subtitle": "Bradley Cooper, Steven Spielberg, Fred Berner, Amy Durning, and Kristie Macosko Krieger; Producers"
+    },
+    {
+      "title": "Oppenheimer",
+      "subtitle": "Emma Thomas, Charles Roven, and Christopher Nolan; Producers"
+    },
+    {
+      "title": "Past Lives",
+      "subtitle": "David Hinojosa, Christine Vachon, and Pamela Koffler; Producers"
+    },
+    {
+      "title": "Poor Things",
+      "subtitle": "Ed Guiney, Andrew Lowe, Yorgos Lanthimos, and Emma Stone; Producers"
+    },
+    {
+      "title": "The Zone of Interest",
+      "subtitle": "James Wilson; Producer"
+    }
+  ],
+  "Production Design": [
+    {
+      "title": "Barbie",
+      "subtitle": "Production Design: Sarah Greenwood; Set Decoration: Katie Spencer"
+    },
+    {
+      "title": "Killers of the Flower Moon",
+      "subtitle": "Production Design: Jack Fisk; Set Decoration: Adam Willis"
+    },
+    {
+      "title": "Napoleon",
+      "subtitle": "Production Design: Arthur Max; Set Decoration: Elli Griff"
+    },
+    {
+      "title": "Oppenheimer",
+      "subtitle": "Production Design: Ruth De Jong; Set Decoration: Claire Kaufman"
+    },
+    {
+      "title": "Poor Things",
+      "subtitle": "Production Design: James Price and Shona Heath; Set Decoration: Zsuzsa Mihalek"
+    }
+  ],
+  "Short Film (Animated)": [
+    {
+      "title": "Letter to a Pig",
+      "subtitle": "Tal Kantor and Amit R. Gicelter"
+    },
+    {
+      "title": "Ninety-Five Senses",
+      "subtitle": "Jerusha Hess and Jared Hess"
+    },
+    {
+      "title": "Our Uniform",
+      "subtitle": "Yegane Moghaddam"
+    },
+    {
+      "title": "Pachyderme",
+      "subtitle": "Stéphanie Clément and Marc Rius"
+    },
+    {
+      "title": "War is Over! Inspired by the Music of John & Yoko",
+      "subtitle": "Dave Mullins and Brad Booker"
+    }
+  ],
+  "Short Film (Live Action)": [
+    {
+      "title": "The After",
+      "subtitle": "Misan Harriman and Nicky Bentham"
+    },
+    {
+      "title": "Invincible",
+      "subtitle": "Vincent René-Lortie and Samuel Caron"
+    },
+    {
+      "title": "Knight of Fortune",
+      "subtitle": "Lasse Lyskjær Noer and Christian Norlyk"
+    },
+    {
+      "title": "Red, White and Blue",
+      "subtitle": "Nazrin Choudhury and Sara McFarlane"
+    },
+    {
+      "title": "The Wonderful Story of Henry Sugar",
+      "subtitle": "Wes Anderson and Steven Rales"
+    }
+  ],
+  "Sound": [
+    {
+      "title": "The Creator",
+      "subtitle": "Ian Voigt, Erik Aadahl, Ethan Van der Ryn, Tom Ozanich, and Dean Zupancic"
+    },
+    {
+      "title": "Maestro",
+      "subtitle": "Steven A. Morrow, Richard King, Jason Ruder, Tom Ozanich, and Dean Zupancic"
+    },
+    {
+      "title": "Mission: Impossible - Dead Reconing Part One",
+      "subtitle": "Chris Munro, James H. Mather, Chris Burdon, and Mark Taylor"
+    },
+    {
+      "title": "Oppenheimer",
+      "subtitle": "Willie Burton, Richard King, Gary A. Rizzo, and Kevin O'Connell"
+    },
+    {
+      "title": "The Zone of Interest",
+      "subtitle": "Tarn Willers and Johnnie Burn"
+    }
+  ],
+  "Visual Effects": [
+    {
+      "title": "The Creator",
+      "subtitle": "Jay Cooper, Ian Comley, Andrew Roberts, and Neil Corbould"
+    },
+    {
+      "title": "Godzilla Minus One",
+      "subtitle": "Takashi Yamazaki, Kiyoko Shibuya, Masaki Takahashi, and Tatsuji Nojima"
+    },
+    {
+      "title": "Guardians of the Galaxy Vol. 3",
+      "subtitle": "Stephane Ceretti, Alexis Wajsbrot, Guy Williams, and Theo Bialek"
+    },
+    {
+      "title": "Mission: Impossible - Dead Reconing Part One",
+      "subtitle": "Alex Wuttke, Simone Coco, Jeff Sutherland, and Neil Corbould"
+    },
+    {
+      "title": "Napoleon",
+      "subtitle": "Charley Henley, Luc-Ewen Martin-Fenouillet, Simone Coco, and Neil Corbould"
+    }
+  ],
+  "Writing (Adapted Screenplay)": [
+    {
+      "title": "American Fiction",
+      "subtitle": "Written for the screen by Cord Jefferson"
+    },
+    {
+      "title": "Barbie",
+      "subtitle": "Written by Greta Gerwig & Noah Baumbach"
+    },
+    {
+      "title": "Oppenheimer",
+      "subtitle": "Written for the screen by Christopher Nolan"
+    },
+    {
+      "title": "Poor Things",
+      "subtitle": "Screenplay by Tony McNamara"
+    },
+    {
+      "title": "The Zone of Interest",
+      "subtitle": "Written by Jonathan Glazer"
+    }
+  ],
+  "Writing (Original Screenplay)": [
+    {
+      "title": "Anatomy of a Fall",
+      "subtitle": "Screenplay - Justine Triet and Arthur Harari"
+    },
+    {
+      "title": "The Holdovers",
+      "subtitle": "Written by David Hemingson"
+    },
+    {
+      "title": "Maestro",
+      "subtitle": "Written by Bradley Cooper & Josh Singer"
+    },
+    {
+      "title": "May December",
+      "subtitle": "Screenplay by Samy Burch; Story by Samy Burch & Alex Mechanik"
+    },
+    {
+      "title": "Past Lives",
+      "subtitle": "Written by Celine Song"
+    }
+  ]
+}

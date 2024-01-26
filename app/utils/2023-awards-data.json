@@ -1,0 +1,528 @@
+{
+  "Actor in a Leading Role": [
+    {
+      "title": "Brendan Fraser",
+      "subtitle": "The Whale"
+    },
+    {
+      "title": "Austin Butler",
+      "subtitle": "Elvis"
+    },
+    {
+      "title": "Colin Farrell",
+      "subtitle": "The Banshees of Inisherin"
+    },
+    {
+      "title": "Paul Mescal",
+      "subtitle": "Aftersun"
+    },
+    {
+      "title": "Bill Nighy",
+      "subtitle": "Living"
+    }
+  ],
+  "Actor in a Supporting Role": [
+    {
+      "title": "Ke Huy Quan",
+      "subtitle": "Everything Everywhere All at Once"
+    },
+    {
+      "title": "Brendan Gleeson",
+      "subtitle": "The Banshees of Inisherin"
+    },
+    {
+      "title": "Brian Tyree Henry",
+      "subtitle": "Causeway"
+    },
+    {
+      "title": "Judd Hirsch",
+      "subtitle": "The Fabelmans"
+    },
+    {
+      "title": "Barry Keoghan",
+      "subtitle": "The Banshees of Inisherin"
+    }
+  ],
+  "Actress in a Leading Role": [
+    {
+      "title": "Michelle Yeoh",
+      "subtitle": "Everything Everywhere All at Once"
+    },
+    {
+      "title": "Cate Blanchett",
+      "subtitle": "Tár"
+    },
+    {
+      "title": "Ana de Armas",
+      "subtitle": "Blonde"
+    },
+    {
+      "title": "Andrea Riseborough",
+      "subtitle": "To Leslie"
+    },
+    {
+      "title": "Michelle Williams",
+      "subtitle": "The Fabelmans"
+    }
+  ],
+  "Actress in a Supporting Role": [
+    {
+      "title": "Jamie Lee Curtis",
+      "subtitle": "Everything Everywhere All at Once"
+    },
+    {
+      "title": "Angela Bassett",
+      "subtitle": "Black Panther: Wakanda Forever"
+    },
+    {
+      "title": "Hong Chau",
+      "subtitle": "The Whale"
+    },
+    {
+      "title": "Kerry Condon",
+      "subtitle": "The Banshees of Inisherin"
+    },
+    {
+      "title": "Stephanie Hsu",
+      "subtitle": "Everything Everywhere All at Once"
+    }
+  ],
+  "Animated Feature Film": [
+    {
+      "title": "Guillermo del Toro's Pinocchio",
+      "subtitle": "Guillermo del Toro, Mark Gustafson, Gary Ungar, and Alex Bulkley"
+    },
+    {
+      "title": "Marcel the Shell With Shoes On",
+      "subtitle": "Dean Fleischer Camp, Elisabeth Holm, Andrew Goldman, Caroline Kaplan, and Paul Mezey"
+    },
+    {
+      "title": "Puss in Boots: The Last Wish",
+      "subtitle": "Joel Crawford and Mark Swift"
+    },
+    {
+      "title": "The Sea Beast",
+      "subtitle": "Chris Williams and Jed Schlanger"
+    },
+    {
+      "title": "Turning Red",
+      "subtitle": "Domee Shi and Lindsey Collins"
+    }
+  ],
+  "Cinematography": [
+    {
+      "title": "All Quiet on the Western Front",
+      "subtitle": "James Friend"
+    },
+    {
+      "title": "Bardo, False Chronicle of a Handful of Truths",
+      "subtitle": "Darius Khondji"
+    },
+    {
+      "title": "Elvis",
+      "subtitle": "Mandy Walker"
+    },
+    {
+      "title": "Empire of Light",
+      "subtitle": "Roger Deakins"
+    },
+    {
+      "title": "Tár",
+      "subtitle": "Florian Hoffmeister"
+    }
+  ],
+  "Costume Design": [
+    {
+      "title": "Black Panther: Wakanda Forever",
+      "subtitle": "Ruth Carter"
+    },
+    {
+      "title": "Babylon",
+      "subtitle": "Mary Zophres"
+    },
+    {
+      "title": "Elvis",
+      "subtitle": "Catherine Martin"
+    },
+    {
+      "title": "Everything Everywhere All at Once",
+      "subtitle": "Shirley Kurata"
+    },
+    {
+      "title": "Mrs. Harris Goes to Paris",
+      "subtitle": "Jenny Beavan"
+    }
+  ],
+  "Directing": [
+    {
+      "title": "Everything Everywhere All at Once",
+      "subtitle": "Daniel Kwan and Daniel Scheinert"
+    },
+    {
+      "title": "The Banshees of Inisherin",
+      "subtitle": "Martin McDonagh"
+    },
+    {
+      "title": "The Fabelmans",
+      "subtitle": "Steven Spielberg"
+    },
+    {
+      "title": "Tár",
+      "subtitle": "Todd Field"
+    },
+    {
+      "title": "Triangle of Sadness",
+      "subtitle": "Ruben Östlund"
+    }
+  ],
+  "Documentary Feature Film": [
+    {
+      "title": "Navalny",
+      "subtitle": "Daniel Roher, Odessa Rae, Diane Becker, Melanie Miller, and Shane Boris"
+    },
+    {
+      "title": "All That Breathes",
+      "subtitle": "Shaunak Sen, Aman Mann, and Teddy Leifer"
+    },
+    {
+      "title": "All the Beauty and the Bloodshed",
+      "subtitle": "Laura Poitras, Howard Gertler, John Lyons, Nan Goldin, and Yoni Golijov"
+    },
+    {
+      "title": "Fire of Love",
+      "subtitle": "Sara Dosa, Shane Boris, and Ina Fichman"
+    },
+    {
+      "title": "A House Made of Splinters",
+      "subtitle": "Simon Lereng Wilmont and Monica Hellström"
+    }
+  ],
+  "Documentary Short Film": [
+    {
+      "title": "The Elephant Whisperers",
+      "subtitle": "Kartiki Gonsalves and Guneet Monga"
+    },
+    {
+      "title": "Haulout",
+      "subtitle": "Evgenia Arbugaeva and Maxim Arbugaev"
+    },
+    {
+      "title": "How Do You Measure a Year?",
+      "subtitle": "Jay Rosenblatt"
+    },
+    {
+      "title": "The Martha Mitchell Effect",
+      "subtitle": "Anne Alvergue and Beth Levison"
+    },
+    {
+      "title": "Stranger at the Gate",
+      "subtitle": "Josha Seftel and Conall Jones"
+    }
+  ],
+  "Film Editing": [
+    {
+      "title": "Everything Everywhere All at Once",
+      "subtitle": "Paul Rogers"
+    },
+    {
+      "title": "The Banshees of Inisherin",
+      "subtitle": "Mikkel E.G. Nielsen"
+    },
+    {
+      "title": "Elvis",
+      "subtitle": "Matt Villa and Jonathan Redmond"
+    },
+    {
+      "title": "Tár",
+      "subtitle": "Monika Willi"
+    },
+    {
+      "title": "Top Gun: Maverick",
+      "subtitle": "Eddie Hamilton"
+    }
+  ],
+  "International Feature Film": [
+    {
+      "title": "All Quiet on the Western Front",
+      "subtitle": "Germany"
+    },
+    {
+      "title": "Argentina, 1985",
+      "subtitle": "Argentina"
+    },
+    {
+      "title": "Close",
+      "subtitle": "Belgium"
+    },
+    {
+      "title": "EO",
+      "subtitle": "Poland"
+    },
+    {
+      "title": "The Quiet Girl",
+      "subtitle": "Ireland"
+    }
+  ],
+  "Makeup and Hairstyling": [
+    {
+      "title": "The Whale",
+      "subtitle": "Adrien Morot, Judy Chin, and Annemarie Bradley"
+    },
+    {
+      "title": "All Quiet on the Western Front",
+      "subtitle": "Heike Merker and Linda Eisenhamerová"
+    },
+    {
+      "title": "The Batman",
+      "subtitle": "Naomi Donne, Mike Marino, and Mike Fontaine"
+    },
+    {
+      "title": "Black Panther: Wakanda Forever",
+      "subtitle": "Camille Friend and Joel Harlow"
+    },
+    {
+      "title": "Elvis",
+      "subtitle": "Mark Coulier, Jason Baird, and Aldo Signoretti"
+    }
+  ],
+  "Music (Original Score)": [
+    {
+      "title": "All Quiet on the Western Front",
+      "subtitle": "Volker Bertelmann"
+    },
+    {
+      "title": "Babylon",
+      "subtitle": "Justin Hurwitz"
+    },
+    {
+      "title": "The Banshees of Inisherin",
+      "subtitle": "Carter Burwell"
+    },
+    {
+      "title": "Everything Everywhere All at Once",
+      "subtitle": "Son Lux"
+    },
+    {
+      "title": "The Fabelmans",
+      "subtitle": "John Williams"
+    }
+  ],
+  "Music (Original Song)": [
+    {
+      "title": "\"Naatu Naatu\" from RRR",
+      "subtitle": "Music by M.M. Keeravaani; Lyric by Chandrabose"
+    },
+    {
+      "title": "\"Applause\" from Tell It Like a Woman",
+      "subtitle": "Music and Lyric by Diane Warren"
+    },
+    {
+      "title": "\"Hold My Hand\" from Top Gun: Maverick",
+      "subtitle": "Music and Lyric by Lady Gaga and BloodPop"
+    },
+    {
+      "title": "\"Lift Me Up\" from Black Panther: Wakanda Forever",
+      "subtitle": "Music by Tems, Rihanna, Ryan Coogler, and Ludwig Goransson; Lyric by Tems and Ryan Coogler"
+    },
+    {
+      "title": "\"This is a Life\" from Everything Everywhere All at Once",
+      "subtitle": "Music by Ryan Lott, David Byrne, and Mitski; Lyric by Ryan Lott and David Byrne"
+    }
+  ],
+  "Best Picture": [
+    {
+      "title": "Everything Everywhere All at Once",
+      "subtitle": "Daniel Kwan, Daniel Scheinert, and Jonathan Wang, Producers"
+    },
+    {
+      "title": "All Quiet on the Western Front",
+      "subtitle": "Malte Grunert, Producer"
+    },
+    {
+      "title": "Avatar: The Way of Water",
+      "subtitle": "James Cameron and Jon Landau, Producers"
+    },
+    {
+      "title": "The Banshees of Inisherin",
+      "subtitle": "Graham Broadbent, Pete Czernin, and Martin McDonagh, Producers"
+    },
+    {
+      "title": "Elvis",
+      "subtitle": "Baz Luhrmann, Catherine Martin, Gail Berman, Patrick McCormick, and Schuyler Weiss, Producers"
+    },
+    {
+      "title": "The Fabelmans",
+      "subtitle": "Kristie Macosko Krieger, Steven Spielberg, and Tony Kushner, Producers"
+    },
+    {
+      "title": "Tár",
+      "subtitle": "Todd Field, ALexandra Milchan, and Scott Lambert, Producers"
+    },
+    {
+      "title": "Top Gun: Maverick",
+      "subtitle": "Tom Cruise, Christopher McQuarrie, David Ellison, and Jerry Bruckheimer, Producers"
+    },
+    {
+      "title": "Triangle of Sadness",
+      "subtitle": "Erik Hemmendorff and Philippe Bober, Producers"
+    },
+    {
+      "title": "Women Talking",
+      "subtitle": "Dede Gardner, Jeremy Kleiner, and Frances McDormand, Producers"
+    }
+  ],
+  "Production Design": [
+    {
+      "title": "All Quiet on the Western Front",
+      "subtitle": "Production Design: Christan M. Goldbeck; Set Decoration: Ernestine Hipper"
+    },
+    {
+      "title": "Avatar: The Way of Water",
+      "subtitle": "Production Design: Dylan Cole and Ben Procter; Set Decoration: Vanessa Cole"
+    },
+    {
+      "title": "Babylon",
+      "subtitle": "Production Design: Florencia Martin; Set Decoration: Anthony Carlino"
+    },
+    {
+      "title": "Elvis",
+      "subtitle": "Production Design: Catherine Martin and Karen Murphy; Set Decoration: Bev Dunn"
+    },
+    {
+      "title": "The Fabelmans",
+      "subtitle": "Production Design: Rick Carter; Set Decoration: Karen O'Hara"
+    }
+  ],
+  "Short Film (Animated)": [
+    {
+      "title": "The Boy, The Mole, The Fox, and The Horse",
+      "subtitle": "Charlie Mackesy and Matthew Freud"
+    },
+    {
+      "title": "The Flying Sailor",
+      "subtitle": "Amanda Forbis and Wendy Tilby"
+    },
+    {
+      "title": "Ice Merchants",
+      "subtitle": "João Gonzalez and Bruno Caetano"
+    },
+    {
+      "title": "My Year of Dicks",
+      "subtitle": "Sara Gunnarsdóttir and Pamela Ribbon"
+    },
+    {
+      "title": "An Ostrich Told Me the World is Fake and I Think I Believe It",
+      "subtitle": "Lachlan Pendragon"
+    }
+  ],
+  "Short Film (Live Action)": [
+    {
+      "title": "An Irish Goodby",
+      "subtitle": "Tom Berkeley and Ross White"
+    },
+    {
+      "title": "Ivalu",
+      "subtitle": "Anders Walter and Rebecca Pruzan"
+    },
+    {
+      "title": "Le Pupille",
+      "subtitle": "Alice Rohrwacher and Alfonso Cuarón"
+    },
+    {
+      "title": "Night Ride",
+      "subtitle": "Eirik Tveiten and Gaute Lid Larssen"
+    },
+    {
+      "title": "The Red Suitcase",
+      "subtitle": "Cyrus Neshvad"
+    }
+  ],
+  "Sound": [
+    {
+      "title": "Top Gun: Maverick",
+      "subtitle": "Mark Weingarten, James H. Mather, Al Nelson, Chris Burdon, and Mark Taylor"
+    },
+    {
+      "title": "All Quiet on the Western Front",
+      "subtitle": "Viktor Prášil, Frank Kruse, Markus Stemler, Lars Ginzel, and Stefan Korte"
+    },
+    {
+      "title": "Avatar: The Way of Water",
+      "subtitle": "Julian Howarth, Gwendolyn Yates Whittle, Dick Bernstein, Christopher Boyes, Gary Summers, and Michael Hedges"
+    },
+    {
+      "title": "The Batman",
+      "subtitle": "Stuart Wilson, William Files, Douglas Murray, and Andy Nelson"
+    },
+    {
+      "title": "Elvis",
+      "subtitle": "David Lee, Wayne Pashley, Andy Nelson, and Michael Keller"
+    }
+  ],
+  "Visual Effects": [
+    {
+      "title": "Avatar: The Way of Water",
+      "subtitle": "Joe Letteri, Richard Baneham, Eric Saindon, and Daniel Barrett"
+    },
+    {
+      "title": "All Quiet on the Western Front",
+      "subtitle": "Frank Petzold, Viktor Müller, Markus Frank, and Kamil Jafar"
+    },
+    {
+      "title": "The Batman",
+      "subtitle": "Dan Lemmon, Russell Earl, Anders Langlands, and Dominic Tuohy"
+    },
+    {
+      "title": "Black Panther: Wakanda Forever",
+      "subtitle": "Geoffrey Baumann, Craig Hammack, R. Christopher White, and Dan Sudick"
+    },
+    {
+      "title": "Top Gun: Maverick",
+      "subtitle": "Ryan Tudhope, Seth Hill, Bryan Litson, and Scott R. Fisher"
+    }
+  ],
+  "Writing (Adapted Screenplay)": [
+    {
+      "title": "Women Talking",
+      "subtitle": "Screenplay by Sarah Polley"
+    },
+    {
+      "title": "All Quiet on the Western Front",
+      "subtitle": "Screenplay - Edward Berger, Lesley Paterson, & Ian Stokell"
+    },
+    {
+      "title": "Glass Onion: A Knives Out Mystery",
+      "subtitle": "Written by Rian Johnson"
+    },
+    {
+      "title": "Living",
+      "subtitle": "Written by Kazuo Ishiguro"
+    },
+    {
+      "title": "Top Gun: Maverick",
+      "subtitle": "Screenplay by Ehren Kruger and Eric Warren Singer and Christopher McQuarrie; Story by Peter Craig and Justin Marks"
+    }
+  ],
+  "Writing (Original Screenplay)": [
+    {
+      "title": "Everything Everywhere All at Once",
+      "subtitle": "Written by Daniel Kwan & Daniel Scheinert"
+    },
+    {
+      "title": "The Banshees of Inisherin",
+      "subtitle": "Written by Martin McDonagh"
+    },
+    {
+      "title": "The Fabelmans",
+      "subtitle": "Written by Steven Spielberg & Tony Kushner"
+    },
+    {
+      "title": "Tár",
+      "subtitle": "Written by Todd Field"
+    },
+    {
+      "title": "Triangle of Sadness",
+      "subtitle": "Written by Ruben Östlund"
+    }
+  ]
+}
