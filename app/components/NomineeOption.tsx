@@ -1,3 +1,4 @@
+import { useId } from "react"
 import { Nominee } from "~/types"
 
 type NomineeOptionProps = {
@@ -13,9 +14,16 @@ export default function NomineeOption({
   isChecked,
   onClick,
 }: NomineeOptionProps) {
+  const id = useId()
+
   return (
-    <label className="rounded-xl px-4 py-3 block cursor-pointer hover:bg-gray-200 has-[*:checked]:bg-gray-300 has-[*:checked]:shadow-inner">
+    // eslint-disable-next-line jsx-a11y/label-has-associated-control
+    <label
+      htmlFor={id}
+      className="rounded-xl px-4 py-3 block cursor-pointer hover:bg-gray-200 has-[*:checked]:bg-gray-300 has-[*:checked]:shadow-inner"
+    >
       <input
+        id={id}
         type="radio"
         name={awardName}
         value={nominee.title}
