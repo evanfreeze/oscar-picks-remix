@@ -1,5 +1,5 @@
 import { ActionFunctionArgs, LoaderFunctionArgs } from "@remix-run/node"
-import { useFetcher, useLoaderData } from "@remix-run/react"
+import { useFetcher, useLoaderData, useNavigation } from "@remix-run/react"
 import { useRef } from "react"
 import NomineeOption from "~/components/NomineeOption"
 import { updatePicksByUserId } from "~/db/fauna.server"
@@ -27,11 +27,19 @@ export default function AwardPickerPage() {
   const { awardName, nominees, currentPick } = useLoaderData<typeof loader>()
   const formRef = useRef<HTMLFormElement>(null)
   const fetcher = useFetcher({ key: awardName })
+  const navigation = useNavigation()
+  const isNavigating = navigation.state !== "idle"
 
   return (
-    <fetcher.Form method="POST" ref={formRef} className="sticky top-6">
-      <h3 className="text-xl font-bold ml-4">{awardName}</h3>
-      <div className="grid my-4 max-w-fit gap-y-0.5">
+    <fetcher.Form
+      method="POST"
+      ref={formRef}
+      className={`sticky top-6 ${isNavigating ? "opacity-30" : ""}`}
+    >
+      <h3 className="text-xl font-bold md:ml-4 text-center md:text-left">
+        {awardName}
+      </h3>
+      <div className="grid my-4 w-full md:max-w-fit gap-y-0.5">
         {(nominees ?? []).map((nominee) => (
           <NomineeOption
             key={nominee.title}
