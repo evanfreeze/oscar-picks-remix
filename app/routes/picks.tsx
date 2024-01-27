@@ -1,6 +1,12 @@
 import { LoaderFunctionArgs } from "@remix-run/node"
-import { Outlet, useFetchers, useLoaderData } from "@remix-run/react"
+import {
+  Outlet,
+  useFetchers,
+  useLoaderData,
+  useNavigate,
+} from "@remix-run/react"
 import AwardPageLink from "~/components/AwardPageLink"
+import AwardSelectOption from "~/components/AwardSelectOption"
 import { buildAwardsNavigationList } from "~/utils/helpers"
 import { fetchUsersPicks, requireUserId } from "~/utils/helpers.server"
 import { useSelectedAwardSlug } from "~/utils/hooks"
@@ -16,12 +22,15 @@ export default function PicksPage() {
   const { navData } = useLoaderData<typeof loader>()
   const selectedAwardSlug = useSelectedAwardSlug()
   const fetchers = useFetchers()
+  const navigate = useNavigate()
 
   return (
-    <div className="grid grid-cols-[auto_1fr] gap-8">
+    <div className="grid md:grid-cols-[auto_1fr] gap-8">
       <section>
-        <h2 className="text-xl font-bold mb-1">Awards</h2>
-        <ul className="space-y-1">
+        <h2 className="text-xl font-bold mb-1 text-center md:text-left">
+          Awards
+        </h2>
+        <ul className="hidden md:block space-y-1">
           {navData.map((item) => (
             <AwardPageLink
               key={item.awardSlug}
@@ -31,6 +40,22 @@ export default function PicksPage() {
             />
           ))}
         </ul>
+        <select
+          defaultValue={selectedAwardSlug}
+          className="w-full p-4"
+          onChange={(e) => {
+            navigate(`/picks/${e.target.value}`)
+          }}
+        >
+          <option disabled>Choose an award...</option>
+          {navData.map((item) => (
+            <AwardSelectOption
+              key={item.awardSlug}
+              item={item}
+              fetchers={fetchers}
+            />
+          ))}
+        </select>
       </section>
       <section>
         {selectedAwardSlug ? (
