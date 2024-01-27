@@ -1,14 +1,14 @@
-import { ClerkApp, ClerkErrorBoundary, UserButton } from "@clerk/remix"
-import { rootAuthLoader } from "@clerk/remix/ssr.server"
+import { ClerkApp, ClerkErrorBoundary, UserButton } from "@clerk/remix";
+import { rootAuthLoader } from "@clerk/remix/ssr.server";
 import type {
   LinksFunction,
   LoaderFunction,
   MetaFunction,
-} from "@remix-run/node"
-import { Links, LiveReload, Meta, Outlet, Scripts } from "@remix-run/react"
-import styles from "./tailwind.css"
+} from "@remix-run/node";
+import { Links, LiveReload, Meta, Outlet, Scripts } from "@remix-run/react";
+import styles from "./tailwind.css";
 
-export const links: LinksFunction = () => [{ rel: "stylesheet", href: styles }]
+export const links: LinksFunction = () => [{ rel: "stylesheet", href: styles }];
 
 export const meta: MetaFunction = () => [
   {
@@ -16,11 +16,11 @@ export const meta: MetaFunction = () => [
     title: "Oscar Picks",
     viewport: "width=device-width,initial-scale=1",
   },
-]
+];
 
-export const loader: LoaderFunction = (args) => rootAuthLoader(args)
+export const loader: LoaderFunction = (args) => rootAuthLoader(args);
 
-export const ErrorBoundary = ClerkErrorBoundary()
+export const ErrorBoundary = ClerkErrorBoundary();
 
 function App() {
   return (
@@ -42,7 +42,7 @@ function App() {
         <LiveReload />
       </body>
     </html>
-  )
+  );
 }
 
-export default ClerkApp(App)
+export default ClerkApp(App);
