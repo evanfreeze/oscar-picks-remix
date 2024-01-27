@@ -1,33 +1,23 @@
-import { ClerkApp, ClerkErrorBoundary, UserButton } from "@clerk/remix";
-import { rootAuthLoader } from "@clerk/remix/ssr.server";
-import type {
-  LinksFunction,
-  LoaderFunction,
-  MetaFunction,
-} from "@remix-run/node";
-import { Links, LiveReload, Meta, Outlet, Scripts } from "@remix-run/react";
-import styles from "./tailwind.css";
+import { ClerkApp, ClerkErrorBoundary, UserButton } from "@clerk/remix"
+import { rootAuthLoader } from "@clerk/remix/ssr.server"
+import type { LinksFunction, LoaderFunction } from "@remix-run/node"
+import { Links, LiveReload, Outlet, Scripts } from "@remix-run/react"
+import styles from "./tailwind.css"
 
-export const links: LinksFunction = () => [{ rel: "stylesheet", href: styles }];
+export const links: LinksFunction = () => [{ rel: "stylesheet", href: styles }]
 
-export const meta: MetaFunction = () => [
-  {
-    charset: "utf-8",
-    title: "Oscar Picks",
-    viewport: "width=device-width,initial-scale=1",
-  },
-];
+export const loader: LoaderFunction = (args) => rootAuthLoader(args)
 
-export const loader: LoaderFunction = (args) => rootAuthLoader(args);
-
-export const ErrorBoundary = ClerkErrorBoundary();
+export const ErrorBoundary = ClerkErrorBoundary()
 
 function App() {
   return (
     <html className="bg-gray-100" lang="en">
       <head>
+        <meta charSet="utf-8" />
+        <title>Oscar Picks</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="data:image/x-icon;base64,AA" />
-        <Meta />
         <Links />
       </head>
       <body className="max-w-screen-lg mx-auto py-6 px-12">
@@ -42,7 +32,7 @@ function App() {
         <LiveReload />
       </body>
     </html>
-  );
+  )
 }
 
-export default ClerkApp(App);
+export default ClerkApp(App)
