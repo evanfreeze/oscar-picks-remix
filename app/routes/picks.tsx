@@ -42,7 +42,7 @@ export default function PicksPage() {
         </ul>
         <select
           defaultValue={selectedAwardSlug}
-          className="w-full p-4"
+          className="w-full p-4 md:hidden"
           onChange={(e) => {
             navigate(`/picks/${e.target.value}`)
           }}
