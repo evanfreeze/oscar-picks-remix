@@ -47,7 +47,9 @@ export default function PicksPage() {
             navigate(`/picks/${e.target.value}`)
           }}
         >
-          <option disabled>Choose an award...</option>
+          <option value={"choose"} disabled>
+            Choose an award...
+          </option>
           {navData.map((item) => (
             <AwardSelectOption
               key={item.awardSlug}
