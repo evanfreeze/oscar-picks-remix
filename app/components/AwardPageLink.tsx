@@ -1,5 +1,6 @@
 import { Link, useFetchers } from "@remix-run/react"
 import { buildAwardsNavigationList } from "~/utils/helpers"
+import StatusIcon from "./StatusIcon"
 
 type AwardPageLinkProps = {
   item: ReturnType<typeof buildAwardsNavigationList>[0]
@@ -12,19 +13,6 @@ export default function AwardPageLink({
   fetchers,
   isActive,
 }: AwardPageLinkProps) {
-  const leadingIcon = (() => {
-    if (
-      fetchers.find((fetcher) => fetcher.key === item.awardName)?.state ===
-      "submitting"
-    ) {
-      return "⏳"
-    }
-    if (item.isPicked) {
-      return "✅"
-    }
-    return ""
-  })()
-
   return (
     <li
       key={item.awardName}
@@ -32,7 +20,7 @@ export default function AwardPageLink({
         isActive ? "bg-gray-300 shadow-inner" : "hover:bg-gray-200"
       }`}
     >
-      <span>{leadingIcon}</span>
+      <StatusIcon item={item} fetchers={fetchers} />
       <Link to={`/picks/${item.awardSlug}`} className={`block py-1 px-2`}>
         {item.awardName}
       </Link>

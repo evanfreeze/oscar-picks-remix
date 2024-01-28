@@ -1,5 +1,6 @@
 import { useFetchers } from "@remix-run/react"
 import { buildAwardsNavigationList } from "~/utils/helpers"
+import StatusIcon from "./StatusIcon"
 
 export default function AwardSelectOption({
   item,
@@ -8,22 +9,9 @@ export default function AwardSelectOption({
   item: ReturnType<typeof buildAwardsNavigationList>[0]
   fetchers: ReturnType<typeof useFetchers>
 }) {
-  const leadingIcon = (() => {
-    if (
-      fetchers.find((fetcher) => fetcher.key === item.awardName)?.state ===
-      "submitting"
-    ) {
-      return "⏳"
-    }
-    if (item.isPicked) {
-      return "✅"
-    }
-    return ""
-  })()
-
   return (
     <option key={item.awardSlug} value={item.awardSlug}>
-      {leadingIcon} {item.awardName}
+      <StatusIcon item={item} fetchers={fetchers} /> {item.awardName}
     </option>
   )
 }
