@@ -1,7 +1,7 @@
 import { useFetchers } from "@remix-run/react"
 import { buildAwardsNavigationList } from "~/utils/helpers"
 
-interface StatusIconProps {
+type StatusIconProps = {
   item: ReturnType<typeof buildAwardsNavigationList>[0]
   fetchers: ReturnType<typeof useFetchers>
 }
