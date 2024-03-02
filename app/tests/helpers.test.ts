@@ -1,5 +1,6 @@
 import { describe, expect, it } from "vitest"
 import {
+  blockIfAwardsHaveStarted,
   createBuildAwardDetailsDataFunction,
   createBuildAwardsNavigationListFunction,
   mergePicks,
@@ -111,5 +112,17 @@ describe("createBuildAwardDetailsDataFunction", () => {
       nominees: mockAwards["Best Picture"],
       currentPick: "Barbie",
     })
+  })
+})
+
+describe("blockIfAwardsHaveStarted", () => {
+  it("returns nothing if it's before the broadcast starts", () => {
+    const testDate = new Date("2024-03-02T21:11:00").getTime()
+    expect(blockIfAwardsHaveStarted(testDate)).toEqual(undefined)
+  })
+
+  it("throws an error if it's after the broadcast has started", () => {
+    const testDate = new Date("2024-03-10T23:00:01").getTime()
+    expect(() => blockIfAwardsHaveStarted(testDate)).toThrowError()
   })
 })

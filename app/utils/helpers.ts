@@ -1,6 +1,6 @@
 import { AwardPick, AwardsData, UserPick } from "../types"
 import awardsData from "./2024-awards-data.json"
-import { CURRENT_YEAR } from "./constants"
+import { AWARDS_BROADCAST_START_TIME, CURRENT_YEAR } from "./constants"
 
 export function mergePicks(
   oldPicks: Array<AwardPick>,
@@ -75,3 +75,9 @@ export function createBuildAwardDetailsDataFunction(awardsData: AwardsData) {
 }
 export const buildAwardDetailsData =
   createBuildAwardDetailsDataFunction(awardsData)
+
+export function blockIfAwardsHaveStarted(epochMs: number) {
+  if (epochMs >= AWARDS_BROADCAST_START_TIME) {
+    throw new Error("Can't update a pick once the Oscars broadcast has started")
+  }
+}

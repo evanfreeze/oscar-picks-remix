@@ -1,9 +1,20 @@
 import { ActionFunctionArgs, LoaderFunctionArgs } from "@remix-run/node"
-import { useFetcher, useLoaderData, useNavigation } from "@remix-run/react"
+import {
+  Link,
+  isRouteErrorResponse,
+  useFetcher,
+  useLoaderData,
+  useLocation,
+  useNavigation,
+  useRouteError,
+} from "@remix-run/react"
 import { useRef } from "react"
 import NomineeOption from "~/components/NomineeOption"
 import { updatePicksByUserId } from "~/db/fauna.server"
-import { buildAwardDetailsData } from "~/utils/helpers"
+import {
+  blockIfAwardsHaveStarted,
+  buildAwardDetailsData,
+} from "~/utils/helpers"
 import {
   buildMergedPicks,
   fetchUsersPicks,
@@ -17,6 +28,8 @@ export async function loader(args: LoaderFunctionArgs) {
 }
 
 export async function action(args: ActionFunctionArgs) {
+  // blockIfAwardsHaveStarted(Date.now())
+  blockIfAwardsHaveStarted(new Date("2024-03-10T23:00:01").getTime())
   const userId = await requireUserId(args)
   const mergedPicks = await buildMergedPicks(args, userId)
   const picks = await updatePicksByUserId(userId, mergedPicks)
@@ -52,4 +65,32 @@ export default function AwardPickerPage() {
       </div>
     </fetcher.Form>
   )
+}
+
+export function ErrorBoundary() {
+  const error = useRouteError()
+  const location = useLocation()
+
+  if (isRouteErrorResponse(error)) {
+    return (
+      <div>
+        <h1>
+          {error.status} {error.statusText}
+        </h1>
+        <p>{error.data}</p>
+      </div>
+    )
+  } else if (error instanceof Error) {
+    return (
+      <div className="mx-auto">
+        <h1 className="text-2xl font-bold mb-2">Error</h1>
+        <p className="mb-4">{error.message}</p>
+        <Link className="underline" to={location.pathname}>
+          View your pick for this award
+        </Link>
+      </div>
+    )
+  } else {
+    return <h1>Unknown Error</h1>
+  }
 }
