@@ -28,8 +28,7 @@ export async function loader(args: LoaderFunctionArgs) {
 }
 
 export async function action(args: ActionFunctionArgs) {
-  // blockIfAwardsHaveStarted(Date.now())
-  blockIfAwardsHaveStarted(new Date("2024-03-10T23:00:01").getTime())
+  blockIfAwardsHaveStarted(Date.now())
   const userId = await requireUserId(args)
   const mergedPicks = await buildMergedPicks(args, userId)
   const picks = await updatePicksByUserId(userId, mergedPicks)
