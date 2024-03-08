@@ -6,5 +6,5 @@ export function useSelectedAwardSlug() {
   const selectedAwardSlug = matches.find((match) => match.pathname === "/picks")
     ?.params.awardName
 
-  return selectedAwardSlug
+  return selectedAwardSlug ?? "choose"
 }

@@ -60,7 +60,7 @@ export default function PicksPage() {
         </select>
       </section>
       <section>
-        {selectedAwardSlug ? (
+        {selectedAwardSlug !== "choose" ? (
           <Outlet />
         ) : (
           <div className="grid min-h-[60vh] place-content-center text-gray-500">
