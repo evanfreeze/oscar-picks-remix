@@ -22,6 +22,7 @@ export type AwardsData = Record<keyof typeof awardsData, Array<Nominee>>
 
 export type AwardWinner = {
   year: Year
+  currentAward: keyof typeof awardsData | ""
   winners: Array<Winner>
 }
 
