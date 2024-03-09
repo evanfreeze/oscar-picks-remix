@@ -1,5 +1,5 @@
 import { Client, fql, FaunaError } from "fauna"
-import { AwardPick, UserPick } from "~/types"
+import { AwardPick, AwardWinner, UserPick } from "~/types"
 
 export const getUserPicksByUserId = async (userId: string) => {
   const client = new Client()
@@ -54,6 +54,28 @@ export const updatePicksByUserId = async (
       return response.data
     } else {
       throw new Error("Fauna succeeded but no data found after updating picks")
+    }
+  } catch (error) {
+    if (error instanceof FaunaError) {
+      console.error("FaunaError — ", error)
+    } else {
+      console.error("Non-Fauna Error — ", error)
+    }
+  } finally {
+    client.close()
+  }
+}
+
+export const getAwardWinnersByYear = async (year: string) => {
+  const client = new Client()
+
+  try {
+    const query = fql`AwardWinners.byYear(${year}).first()`
+    const response = await client.query<AwardWinner>(query)
+    if (response.data) {
+      return response.data
+    } else {
+      throw new Error("No award winners data found for year: " + year)
     }
   } catch (error) {
     if (error instanceof FaunaError) {

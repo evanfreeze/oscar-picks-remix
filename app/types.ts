@@ -19,3 +19,13 @@ export type Nominee = {
 }
 
 export type AwardsData = Record<keyof typeof awardsData, Array<Nominee>>
+
+export type AwardWinner = {
+  year: Year
+  winners: Array<Winner>
+}
+
+type Winner = {
+  awardName: keyof typeof awardsData
+  winner: string
+}

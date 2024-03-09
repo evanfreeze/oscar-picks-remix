@@ -82,6 +82,9 @@ const Navigation = () => {
       <HeaderLink to="/summary" isActive={location.pathname === "/summary"}>
         Summary
       </HeaderLink>
+      <HeaderLink to="/results" isActive={location.pathname === "/results"}>
+        Results
+      </HeaderLink>
     </nav>
   )
 }

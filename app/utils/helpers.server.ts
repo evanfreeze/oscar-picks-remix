@@ -6,6 +6,7 @@ import {
 } from "@remix-run/node"
 import {
   createUserPicksForUserId,
+  getAwardWinnersByYear,
   getUserPicksByUserId,
 } from "../db/fauna.server"
 import { AwardPick } from "../types"
@@ -44,4 +45,9 @@ export async function buildMergedPicks(
   const existingPicks = await getUserPicksByUserId(userId)
   const mergedPicks = mergePicks(existingPicks?.picks ?? [], [newPick])
   return mergedPicks
+}
+
+export async function fetchThisYearsWinners() {
+  const winners = await getAwardWinnersByYear(CURRENT_YEAR)
+  return winners
 }
