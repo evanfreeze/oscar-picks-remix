@@ -132,13 +132,13 @@ export default function FreezeFamilyLiveResultsPage() {
         )}
       </div>
       <h2 className="text-lg font-semibold mb-2">Our Picks</h2>
-      <ul className="grid grid-cols-4 gap-3 mb-6">
+      <ul className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-6">
         {results.map((result) => (
           <li
             key={result.firstName}
             className="grid justify-center items-start grid-rows-[auto_1fr_auto] bg-gray-200 p-6 rounded-xl"
           >
-            <div className="w-28 h-28 overflow-hidden justify-self-center rounded-full bg-gray-300 mb-3">
+            <div className="w-20 h-20 sm:w-28 sm:h-28 overflow-hidden justify-self-center rounded-full bg-gray-300 mb-3">
               <img
                 className="object-cover"
                 src={result.imageUrl}

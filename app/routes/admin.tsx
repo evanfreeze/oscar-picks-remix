@@ -73,12 +73,12 @@ export default function AdminPage() {
   return (
     <div>
       <h1 className="text-xl font-bold mb-2">Admin Page</h1>
-      <div className="grid grid-cols-2 mb-6 gap-3">
-        <div className="bg-gray-200 p-4 rounded-xl">
+      <div className="grid sm:grid-cols-2 mb-6 gap-3">
+        <div className="bg-gray-200 p-2 px-3 sm:p-4 rounded-xl">
           <p className="uppercase text-xs text-black/50">Current Award</p>
           <p>{awardWinners?.currentAward || "Not selected"}</p>
         </div>
-        <div className="bg-gray-200 p-4 rounded-xl">
+        <div className="bg-gray-200 p-2 px-3 sm:p-4 rounded-xl">
           <p className="uppercase text-xs text-black/50">Winner</p>
           <p>
             {awardWinners?.winners.find(
@@ -88,9 +88,8 @@ export default function AdminPage() {
         </div>
       </div>
       <h2 className="text-lg font-semibold mb-2">Choose an award</h2>
-      <div className="grid grid-cols-[1fr_auto] gap-3 items-start">
+      <div className="grid sm:grid-cols-[1fr_auto] gap-3 items-start mb-6">
         <select
-          className="mb-6"
           value={selectedAward}
           onChange={(e) =>
             setSelectedAward(e.target.value as keyof typeof awardsData)
@@ -111,7 +110,7 @@ export default function AdminPage() {
             disabled={selectedIsCurrent}
             name="_action"
             value="setCurrentAward"
-            className={`text-sm px-3 py-1.5 bg-gray-300 rounded-xl ${selectedIsCurrent ? "opacity-50 cursor-not-allowed" : ""}`}
+            className={`w-full text-sm px-3 py-1.5 bg-gray-300 rounded-xl ${selectedIsCurrent ? "opacity-50 cursor-not-allowed" : ""}`}
           >
             {selectedIsCurrent ? "Current" : "Mark as current"}
           </button>
@@ -128,7 +127,7 @@ export default function AdminPage() {
                 <li key={nominee.title}>
                   <Form
                     method="POST"
-                    className="flex justify-between items-center gap-3 py-3"
+                    className="flex flex-col sm:flex-row justify-between sm:items-center gap-3 py-3"
                   >
                     <div>
                       <p className="font-semibold">{nominee.title}</p>
