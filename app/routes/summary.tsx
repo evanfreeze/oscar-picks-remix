@@ -2,11 +2,11 @@
 import { LoaderFunctionArgs } from "@remix-run/node"
 import { Link, useLoaderData } from "@remix-run/react"
 import { buildAwardsNavigationList } from "~/utils/helpers"
-import { fetchUsersPicks, requireUserId } from "~/utils/helpers.server"
+import { fetchUsersPicksForYear, requireUserId } from "~/utils/helpers.server"
 
 export async function loader(args: LoaderFunctionArgs) {
   const userId = await requireUserId(args)
-  const rawPicks = await fetchUsersPicks(userId)
+  const rawPicks = await fetchUsersPicksForYear(userId)
   const navData = buildAwardsNavigationList(rawPicks)
   const picks = (rawPicks?.picks ?? []).sort((a, b) => {
     if (a.awardName > b.awardName) return 1

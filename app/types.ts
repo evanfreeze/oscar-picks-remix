@@ -1,6 +1,6 @@
-import awardsData from "./utils/2024-awards-data.json"
+import awardsData from "./utils/2025-awards-data.json"
 
-export type Year = "2023" | "2024"
+export type Year = "2023" | "2024" | "2025"
 
 export type AwardPick = {
   year: Year

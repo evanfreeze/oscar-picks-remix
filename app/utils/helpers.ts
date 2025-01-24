@@ -1,5 +1,5 @@
 import { AwardPick, AwardsData, UserPick } from "../types"
-import awardsData from "./2024-awards-data.json"
+import awardsData from "./2025-awards-data.json"
 import { AWARDS_BROADCAST_START_TIME, CURRENT_YEAR } from "./constants"
 
 export function mergePicks(

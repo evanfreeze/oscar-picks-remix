@@ -31,7 +31,7 @@ function App() {
       <body className="max-w-screen-lg mx-auto py-6 px-12">
         <header className="flex flex-col gap-2 items-center border-b pb-4 mb-6">
           <div className="w-full flex justify-between items-center gap-1">
-            <h1 className="text-2xl font-bold">Oscar Picks 2024</h1>
+            <h1 className="text-2xl font-bold">Oscar Picks 2025</h1>
             <div className="flex gap-5 items-center">
               <div className="hidden sm:block">
                 <Navigation />

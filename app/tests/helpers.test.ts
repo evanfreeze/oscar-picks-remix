@@ -28,7 +28,7 @@ const mockPicks: UserPick = {
   userId: "mockUserId",
   picks: [
     {
-      year: "2024",
+      year: "2025",
       awardName: "Best Picture",
       pick: "Barbie",
     },
@@ -122,7 +122,7 @@ describe("blockIfAwardsHaveStarted", () => {
   })
 
   it("throws an error if it's after the broadcast has started", () => {
-    const testDate = new Date("2024-03-10T23:00:01").getTime()
+    const testDate = new Date("2025-03-02T23:00:01").getTime()
     expect(() => blockIfAwardsHaveStarted(testDate)).toThrowError()
   })
 })

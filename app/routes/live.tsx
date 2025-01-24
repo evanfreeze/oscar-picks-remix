@@ -3,6 +3,7 @@ import { useLoaderData, useRevalidator } from "@remix-run/react"
 import { useEffect } from "react"
 import { getProdUserById } from "~/db/clerk.server"
 import { getUserPicksByUserId } from "~/db/fauna.server"
+import { CURRENT_YEAR } from "~/utils/constants"
 import { fetchThisYearsWinners, requireUserId } from "~/utils/helpers.server"
 
 export async function loader(args: LoaderFunctionArgs) {
@@ -45,7 +46,8 @@ export async function loader(args: LoaderFunctionArgs) {
       }
 
     const pick = userPicks.picks.find(
-      (pick) => pick.awardName === currentAwardName,
+      (pick) =>
+        pick.awardName === currentAwardName && pick.year === CURRENT_YEAR,
     )?.pick
 
     const currentAwardWinner =

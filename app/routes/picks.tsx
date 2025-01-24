@@ -8,12 +8,12 @@ import {
 import AwardPageLink from "~/components/AwardPageLink"
 import AwardSelectOption from "~/components/AwardSelectOption"
 import { buildAwardsNavigationList } from "~/utils/helpers"
-import { fetchUsersPicks, requireUserId } from "~/utils/helpers.server"
+import { fetchUsersPicksForYear, requireUserId } from "~/utils/helpers.server"
 import { useSelectedAwardSlug } from "~/utils/hooks"
 
 export async function loader(args: LoaderFunctionArgs) {
   const userId = await requireUserId(args)
-  const picks = await fetchUsersPicks(userId)
+  const picks = await fetchUsersPicksForYear(userId)
   const navData = buildAwardsNavigationList(picks)
   return { navData }
 }
