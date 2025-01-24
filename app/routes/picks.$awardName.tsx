@@ -17,13 +17,13 @@ import {
 } from "~/utils/helpers"
 import {
   buildMergedPicks,
-  fetchUsersPicks,
+  fetchUsersPicksForYear,
   requireUserId,
 } from "~/utils/helpers.server"
 
 export async function loader(args: LoaderFunctionArgs) {
   const userId = await requireUserId(args)
-  const picks = await fetchUsersPicks(userId)
+  const picks = await fetchUsersPicksForYear(userId)
   return buildAwardDetailsData(args.params.awardName, picks)
 }
 

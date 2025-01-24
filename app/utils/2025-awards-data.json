@@ -1,0 +1,528 @@
+{
+  "Actor in a Leading Role": [
+    {
+      "title": "Adrien Brody",
+      "subtitle": "The Brutalist"
+    },
+    {
+      "title": "Timothée Chalamet",
+      "subtitle": "A Complete Unknown"
+    },
+    {
+      "title": "Colman Domingo",
+      "subtitle": "Sing Sing"
+    },
+    {
+      "title": "Ralph Fiennes",
+      "subtitle": "Conclave"
+    },
+    {
+      "title": "Sebastian Stan",
+      "subtitle": "The Apprentice"
+    }
+  ],
+  "Actor in a Supporting Role": [
+    {
+      "title": "Yura Borisov",
+      "subtitle": "Anora"
+    },
+    {
+      "title": "Kieran Culkin",
+      "subtitle": "A Real Pain"
+    },
+    {
+      "title": "Edward Norton",
+      "subtitle": "A Complete Unknown"
+    },
+    {
+      "title": "Guy Pearce",
+      "subtitle": "The Brutalist"
+    },
+    {
+      "title": "Jeremy Strong",
+      "subtitle": "The Apprentice"
+    }
+  ],
+  "Actress in a Leading Role": [
+    {
+      "title": "Cynthia Erivo",
+      "subtitle": "Wicked"
+    },
+    {
+      "title": "Karla Sofía Gascón",
+      "subtitle": "Emilia Pérez"
+    },
+    {
+      "title": "Mikey Madison",
+      "subtitle": "Anora"
+    },
+    {
+      "title": "Demi Moore",
+      "subtitle": "The Substance"
+    },
+    {
+      "title": "Fernanda Torres",
+      "subtitle": "I'm Still Here"
+    }
+  ],
+  "Actress in a Supporting Role": [
+    {
+      "title": "Monica Barbaro",
+      "subtitle": "A Complete Unknown"
+    },
+    {
+      "title": "Ariana Grande",
+      "subtitle": "Wicked"
+    },
+    {
+      "title": "Felicity Jones",
+      "subtitle": "The Brutalist"
+    },
+    {
+      "title": "Isabella Rossellini",
+      "subtitle": "Conclave"
+    },
+    {
+      "title": "Zoe Saldaña",
+      "subtitle": "Emilia Pérez"
+    }
+  ],
+  "Animated Feature Film": [
+    {
+      "title": "Flow",
+      "subtitle": "Nominees to be determined"
+    },
+    {
+      "title": "Inside Out 2",
+      "subtitle": "Kelsey Mann and Mark Nielsen"
+    },
+    {
+      "title": "Memoir of a Snail",
+      "subtitle": "Adam Elliot and Liz Kearney"
+    },
+    {
+      "title": "Wallace & Gromit: Vengeance Most Fowl",
+      "subtitle": "Nominees to be determined"
+    },
+    {
+      "title": "The Wild Robot",
+      "subtitle": "Chris Sanders and Jeff Hermann"
+    }
+  ],
+  "Animated Short Film": [
+    {
+      "title": "Beautiful Men",
+      "subtitle": "Nicolas Keppens and Brecht Van Elslande"
+    },
+    {
+      "title": "In the Shadow of the Cypress",
+      "subtitle": "Shirin Sohani and Hossein Molayemi"
+    },
+    {
+      "title": "Magic Candies",
+      "subtitle": "Daisuke Nishio and Takashi Washio"
+    },
+    {
+      "title": "Wander to Wonder",
+      "subtitle": "Nina Gantz and Stienette Bosklopper"
+    },
+    {
+      "title": "Yucki",
+      "subtitle": "Loïc Espuche and Juliette Marquet"
+    }
+  ],
+  "Cinematography": [
+    {
+      "title": "The Brutalist",
+      "subtitle": "Lol Crawley"
+    },
+    {
+      "title": "Dune: Part Two",
+      "subtitle": "Greig Fraser"
+    },
+    {
+      "title": "Emilia Pérez",
+      "subtitle": "Paul Guilhaume"
+    },
+    {
+      "title": "Maria",
+      "subtitle": "Ed Lachman"
+    },
+    {
+      "title": "Nosferatu",
+      "subtitle": "Jarin Blaschke"
+    }
+  ],
+  "Costume Design": [
+    {
+      "title": "A Complete Unknown",
+      "subtitle": "Arianne Phillips"
+    },
+    {
+      "title": "Conclave",
+      "subtitle": "Lisy Christl"
+    },
+    {
+      "title": "Gladiator II",
+      "subtitle": "Janty Yates and Dave Crossman"
+    },
+    {
+      "title": "Nosferatu",
+      "subtitle": "Linda Muir"
+    },
+    {
+      "title": "Wicked",
+      "subtitle": "Paul Tazewell"
+    }
+  ],
+  "Directing": [
+    {
+      "title": "Anora",
+      "subtitle": "Sean Baker"
+    },
+    {
+      "title": "The Brutalist",
+      "subtitle": "Brady Corbet"
+    },
+    {
+      "title": "A Complete Unknown",
+      "subtitle": "James Mangold"
+    },
+    {
+      "title": "Emilia Pérez",
+      "subtitle": "Jacques Audiard"
+    },
+    {
+      "title": "The Substance",
+      "subtitle": "Coralie Fargeat"
+    }
+  ],
+  "Documentary Feature Film": [
+    {
+      "title": "Black Box Diaries",
+      "subtitle": "Shiori Ito, Eric Nyari and Hanna Aqvilin"
+    },
+    {
+      "title": "No Other Land",
+      "subtitle": "Basel Adra, Rachel Szor, Hamdan Ballal and Yuval Abraham"
+    },
+    {
+      "title": "Porcelain War",
+      "subtitle": "Brendan Bellomo, Slava Leontyev, Aniela Sidorska and Paula DuPre' Pesmen"
+    },
+    {
+      "title": "Soundtrack to a Coup D'Etat",
+      "subtitle": "Johan Grimonprez, Daan Milius and Rémi Grellety"
+    },
+    {
+      "title": "Sugarcane",
+      "subtitle": "Nominees to be determined"
+    }
+  ],
+  "Documentary Short Film": [
+    {
+      "title": "Death By Numbers",
+      "subtitle": "Kim A. Snyder and Janique L. Robillard"
+    },
+    {
+      "title": "I Am Ready, Warden",
+      "subtitle": "Smriti Mundhra and Maya Gnyp"
+    },
+    {
+      "title": "Incident",
+      "subtitle": "Bill Morrison and Jamie Kalven"
+    },
+    {
+      "title": "Instruments of a Beating Heart",
+      "subtitle": "Ema Ryan Yamazaki and Eric Nyari"
+    },
+    {
+      "title": "The Only Girl in the Orchestra",
+      "subtitle": "Molly O’Brien and Lisa Remington"
+    }
+  ],
+  "Film Editing": [
+    {
+      "title": "Anora",
+      "subtitle": "Sean Baker"
+    },
+    {
+      "title": "The Brutalist",
+      "subtitle": "David Jancso"
+    },
+    {
+      "title": "Conclave",
+      "subtitle": "Nick Emerson"
+    },
+    {
+      "title": "Emilia Pérez",
+      "subtitle": "Juliette Welfling"
+    },
+    {
+      "title": "Wicked",
+      "subtitle": "Myron Kerstein"
+    }
+  ],
+  "International Feature Film": [
+    {
+      "title": "I'm Still Here",
+      "subtitle": "Brazil"
+    },
+    {
+      "title": "The Girl with the Needle",
+      "subtitle": "Denmark"
+    },
+    {
+      "title": "Emilia Pérez",
+      "subtitle": "France"
+    },
+    {
+      "title": "The Seed of the Sacred Fig",
+      "subtitle": "Germany"
+    },
+    {
+      "title": "Flow",
+      "subtitle": "Latvia"
+    }
+  ],
+  "Makeup and Hairstyling": [
+    {
+      "title": "A Different Man",
+      "subtitle": "Mike Marino, David Presto and Crystal Jurado"
+    },
+    {
+      "title": "Emilia Pérez",
+      "subtitle": "Julia Floch Carbonel, Emmanuel Janvier and Jean-Christophe Spadaccini"
+    },
+    {
+      "title": "Nosferatu",
+      "subtitle": "David White, Traci Loader and Suzanne Stokes-Munton"
+    },
+    {
+      "title": "The Substance",
+      "subtitle": "Pierre-Olivier Persin, Stéphanie Guillon and Marilyne Scarselli"
+    },
+    {
+      "title": "Wicked",
+      "subtitle": "Frances Hannon, Laura Blount and Sarah Nuth"
+    }
+  ],
+  "Music (Original Score)": [
+    {
+      "title": "The Brutalist",
+      "subtitle": "Daniel Blumberg"
+    },
+    {
+      "title": "Conclave",
+      "subtitle": "Volker Bertelmann"
+    },
+    {
+      "title": "Emilia Pérez",
+      "subtitle": "Clément Ducol and Camille"
+    },
+    {
+      "title": "Wicked",
+      "subtitle": "John Powell and Stephen Schwartz"
+    },
+    {
+      "title": "The Wild Robot",
+      "subtitle": "Kris Bowers"
+    }
+  ],
+  "Music (Original Song)": [
+    {
+      "title": "\"El Mal\" from Emilia Pérez",
+      "subtitle": "Music by Clément Ducol and Camille; Lyric by Clément Ducol, Camille and Jacques Audiard"
+    },
+    {
+      "title": "\"The Journey\" from The Six Triple Eight",
+      "subtitle": "Music and Lyric by Diane Warren"
+    },
+    {
+      "title": "\"Like a Bird\" from Sing Sing",
+      "subtitle": "Music and Lyric by Abraham Alexander and Adrian Quesada"
+    },
+    {
+      "title": "\"Mi Camino\" from Emilia Pérez",
+      "subtitle": "Music and Lyric by Camille and Clément Ducol"
+    },
+    {
+      "title": "\"Never Too Late\" from Elton John: Never Too Late",
+      "subtitle": "Music and Lyric by Elton John, Brandi Carlile, Andrew Watt and Bernie Taupin"
+    }
+  ],
+  "Best Picture": [
+    {
+      "title": "Anora",
+      "subtitle": "Alex Coco, Samantha Quan and Sean Baker, Producers"
+    },
+    {
+      "title": "The Brutalist",
+      "subtitle": "Nominees to be determined"
+    },
+    {
+      "title": "A Complete Unknown",
+      "subtitle": "Fred Berger, James Mangold and Alex Heineman, Producers"
+    },
+    {
+      "title": "Conclave",
+      "subtitle": "Tessa Ross, Juliette Howell and Michael A. Jackman, Producers"
+    },
+    {
+      "title": "Dune: Part Two",
+      "subtitle": "Mary Parent, Cale Boyter, Tanya Lapointe and Denis Villeneuve, Producers"
+    },
+    {
+      "title": "Emilia Pérez",
+      "subtitle": "Nominees to be determined"
+    },
+    {
+      "title": "I'm Still Here",
+      "subtitle": "Nominees to be determined"
+    },
+    {
+      "title": "Nickel Boys",
+      "subtitle": "Nominees to be determined"
+    },
+    {
+      "title": "The Substance",
+      "subtitle": "Nominees to be determined"
+    },
+    {
+      "title": "Wicked",
+      "subtitle": "Marc Platt, Producer"
+    }
+  ],
+  "Production Design": [
+    {
+      "title": "The Brutalist",
+      "subtitle": "Production Design: Judy Becker; Set Decoration: Patricia Cuccia"
+    },
+    {
+      "title": "Conclave",
+      "subtitle": "Production Design: Suzie Davies; Set Decoration: Cynthia Sleiter"
+    },
+    {
+      "title": "Dune: Part Two",
+      "subtitle": "Production Design: Patrice Vermette; Set Decoration: Shane Vieau"
+    },
+    {
+      "title": "Nosferatu",
+      "subtitle": "Production Design: Craig Lathrop; Set Decoration: Beatrice Brentnerová"
+    },
+    {
+      "title": "Wicked",
+      "subtitle": "Production Design: Nathan Crowley; Set Decoration: Lee Sandales"
+    }
+  ],
+  "Live Action Short Film": [
+    {
+      "title": "A Lien",
+      "subtitle": "Sam Cutler-Kreutz and David Cutler-Kreutz"
+    },
+    {
+      "title": "Anuja",
+      "subtitle": "Adam J. Graves and Suchitra Mattai"
+    },
+    {
+      "title": "I'm Not a Robot",
+      "subtitle": "Victoria Warmerdam and Trent"
+    },
+    {
+      "title": "The Last Ranger",
+      "subtitle": "Cindy Lee and Darwin Shaw"
+    },
+    {
+      "title": "The Man Who Could Not Remain Silent",
+      "subtitle": "Nebojša Slijepčević and Danijel Pek"
+    }
+  ],
+  "Sound": [
+    {
+      "title": "A Complete Unknown",
+      "subtitle": "Tod A. Maitland, Donald Sylvester, Ted Caplan, Paul Massey and David Giammarco"
+    },
+    {
+      "title": "Dune: Part Two",
+      "subtitle": "Gareth John, Richard King, Ron Bartlett and Doug Hemphill"
+    },
+    {
+      "title": "Emilia Pérez",
+      "subtitle": "Erwan Kerzanet, Aymeric Devoldère, Maxence Dussère, Cyril Holtz and Niels Barletta"
+    },
+    {
+      "title": "Wicked",
+      "subtitle": "Simon Hayes, Nancy Nugent Title, Jack Dolman, Andy Nelson and John Marquis"
+    },
+    {
+      "title": "The Wild Robot",
+      "subtitle": "Randy Thom, Brian Chumney, Gary A. Rizzo and Leff Lefferts"
+    }
+  ],
+  "Visual Effects": [
+    {
+      "title": "Alien: Romulus",
+      "subtitle": "Eric Barba, Nelson Sepulveda-Fauser, Daniel Macarin and Shane Mahan"
+    },
+    {
+      "title": "Better Man",
+      "subtitle": "Luke Millar, David Clayton, Keith Herft and Peter Stubbs"
+    },
+    {
+      "title": "Dune: Part Two",
+      "subtitle": "Paul Lambert, Stephen James, Rhys Salcombe and Gerd Nefzer"
+    },
+    {
+      "title": "Kingdom of the Planet of the Apes",
+      "subtitle": "Erik Winquist, Stephen Unterfranz, Paul Story and Rodney Burke"
+    },
+    {
+      "title": "Wicked",
+      "subtitle": "Pablo Helman, Jonathan Fawkner, David Shirk and Paul Corbould"
+    }
+  ],
+  "Writing (Adapted Screenplay)": [
+    {
+      "title": "A Complete Unknown",
+      "subtitle": "Screenplay by James Mangold and Jay Cocks"
+    },
+    {
+      "title": "Conclave",
+      "subtitle": "Screenplay by Peter Straughan"
+    },
+    {
+      "title": "Emilia Pérez",
+      "subtitle": "Screenplay by Jacques Audiard; In collaboration with Thomas Bidegain, Léa Mysius and Nicolas Livecchi"
+    },
+    {
+      "title": "Nickel Boys",
+      "subtitle": "Screenplay by RaMell Ross & Joslyn Barnes"
+    },
+    {
+      "title": "Sing Sing",
+      "subtitle": "Screenplay by Clint Bentley, Greg Kwedar; Story by Clint Bentley, Greg Kwedar, Clarence Maclin, John \"Divine G\" Whitfield"
+    }
+  ],
+  "Writing (Original Screenplay)": [
+    {
+      "title": "Anora",
+      "subtitle": "Written by Sean Baker"
+    },
+    {
+      "title": "The Brutalist",
+      "subtitle": "Written by Brady Corbet, Mona Fastvold"
+    },
+    {
+      "title": "A Real Pain",
+      "subtitle": "Written by Jesse Eisenberg"
+    },
+    {
+      "title": "September 5",
+      "subtitle": "Written by Moritz Binder, Tim Fehlbaum; Co-Written by Alex David"
+    },
+    {
+      "title": "The Substance",
+      "subtitle": "Written by Coralie Fargeat"
+    }
+  ]
+}

@@ -1,16 +1,16 @@
 import { LoaderFunctionArgs, redirect } from "@remix-run/node"
 import { useLoaderData, useRevalidator } from "@remix-run/react"
 import { useEffect } from "react"
-import awardsData from "~/utils/2024-awards-data.json"
+import awardsData from "~/utils/2025-awards-data.json"
 import {
   requireUserId,
-  fetchUsersPicks,
+  fetchUsersPicksForYear,
   fetchThisYearsWinners,
 } from "~/utils/helpers.server"
 
 export async function loader(args: LoaderFunctionArgs) {
   const userId = await requireUserId(args)
-  const rawPicks = await fetchUsersPicks(userId)
+  const rawPicks = await fetchUsersPicksForYear(userId)
   const rawWinners = await fetchThisYearsWinners()
 
   if (!rawPicks) throw redirect("/picks")

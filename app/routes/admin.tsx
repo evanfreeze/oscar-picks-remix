@@ -5,7 +5,7 @@ import {
 } from "@remix-run/node"
 import { getUserById } from "~/db/clerk.server"
 import { fetchThisYearsWinners, requireUserId } from "~/utils/helpers.server"
-import awardsData from "~/utils/2024-awards-data.json"
+import awardsData from "~/utils/2025-awards-data.json"
 import { Form, useLoaderData } from "@remix-run/react"
 import { useState } from "react"
 import { setAwardWinner, setCurrentAward } from "~/db/fauna.server"

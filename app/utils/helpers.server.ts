@@ -21,14 +21,20 @@ export async function requireUserId(args: LoaderFunctionArgs) {
   return userId
 }
 
-export async function fetchUsersPicks(userId: string) {
-  let picks = await getUserPicksByUserId(userId)
+export async function fetchUsersPicksForYear(
+  userId: string,
+  year = CURRENT_YEAR,
+) {
+  let userPicks = await getUserPicksByUserId(userId)
 
-  if (!picks) {
-    picks = await createUserPicksForUserId(userId)
+  if (!userPicks) {
+    userPicks = await createUserPicksForUserId(userId)
   }
 
-  return picks
+  return {
+    ...userPicks,
+    picks: userPicks?.picks.filter((p) => p.year === year) ?? [],
+  }
 }
 
 export async function buildMergedPicks(
