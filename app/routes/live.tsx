@@ -81,7 +81,8 @@ export async function loader(args: LoaderFunctionArgs) {
       const correctPicks =
         awardWinners?.winners.filter((winner) => {
           const pickForAward = userPicks.picks.find(
-            (pick) => pick.awardName === winner.awardName,
+            (pick) =>
+              pick.awardName === winner.awardName && pick.year === CURRENT_YEAR,
           )
           if (!pickForAward) return false
           return pickForAward.pick === winner.winner
