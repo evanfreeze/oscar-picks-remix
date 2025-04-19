@@ -8,7 +8,7 @@ import { fetchThisYearsWinners, requireUserId } from "~/utils/helpers.server"
 import awardsData from "~/utils/2025-awards-data.json"
 import { Form, useLoaderData } from "@remix-run/react"
 import { useState } from "react"
-import { setAwardWinner, setCurrentAward } from "~/db/fauna.server"
+import { setAwardWinner, setCurrentAward } from "~/db/mongodb.server"
 import { CURRENT_YEAR } from "~/utils/constants"
 
 export async function loader(args: LoaderFunctionArgs) {

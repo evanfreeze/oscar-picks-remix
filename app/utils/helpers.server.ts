@@ -8,7 +8,7 @@ import {
   createUserPicksForUserId,
   getAwardWinnersByYear,
   getUserPicksByUserId,
-} from "../db/fauna.server"
+} from "~/db/mongodb.server"
 import { AwardPick } from "../types"
 import { CURRENT_YEAR } from "./constants"
 import { mergePicks } from "./helpers"
@@ -29,6 +29,9 @@ export async function fetchUsersPicksForYear(
 
   if (!userPicks) {
     userPicks = await createUserPicksForUserId(userId)
+    if (!userPicks) {
+      throw new Error(`Failed to create UserPicks when fetching: ${userId}`)
+    }
   }
 
   return {

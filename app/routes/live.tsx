@@ -2,7 +2,7 @@ import { LoaderFunctionArgs, redirect } from "@remix-run/node"
 import { useLoaderData, useRevalidator } from "@remix-run/react"
 import { useEffect } from "react"
 import { getProdUserById } from "~/db/clerk.server"
-import { getUserPicksByUserId } from "~/db/fauna.server"
+import { getUserPicksByUserId } from "~/db/mongodb.server"
 import { CURRENT_YEAR } from "~/utils/constants"
 import { fetchThisYearsWinners, requireUserId } from "~/utils/helpers.server"
 

@@ -10,7 +10,7 @@ import {
 } from "@remix-run/react"
 import { useRef } from "react"
 import NomineeOption from "~/components/NomineeOption"
-import { updatePicksByUserId } from "~/db/fauna.server"
+import { updatePicksByUserId } from "~/db/mongodb.server"
 import {
   blockIfAwardsHaveStarted,
   buildAwardDetailsData,
