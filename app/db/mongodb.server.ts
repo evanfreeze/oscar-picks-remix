@@ -49,7 +49,7 @@ export async function createUserPicksForUserId(userId: string) {
     const userPicksCollection = client
       .db(Database)
       .collection(Collection.UserPicks)
-    const response = await userPicksCollection.insertOne({ userId })
+    const response = await userPicksCollection.insertOne({ userId, picks: [] })
     if (response.insertedId) {
       const picks = (await userPicksCollection.findOne({
         _id: response.insertedId,
