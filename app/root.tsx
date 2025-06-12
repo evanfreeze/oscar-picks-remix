@@ -9,7 +9,7 @@ import {
   Scripts,
   useLocation,
 } from "@remix-run/react"
-import styles from "./tailwind.css"
+import styles from "./tailwind.css?url"
 import { ReactNode } from "react"
 
 export const links: LinksFunction = () => [{ rel: "stylesheet", href: styles }]
