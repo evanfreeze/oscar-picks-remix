@@ -30,3 +30,5 @@ type Winner = {
   awardName: keyof typeof awardsData
   winner: string
 }
+
+type Test = { hey: string }
